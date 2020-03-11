@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let max=+prompt("Nhập số"); 
+        sr=""+max+" ; ";
+        let n;
+        do {
+            n=+prompt("Nhập số ");
+            sr=sr+n+"   ;   ";
+            if (n>max){max=n};
+        } while (n!=0)
+        alert("Dãy số đã nhập : "+sr+"----->>> Số có GTLN là: "+max);
+        
+    </script>
+</body>
+</html>
